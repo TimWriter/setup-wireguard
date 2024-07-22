@@ -109,6 +109,9 @@ runs:
 
             curl -L -o wireguard-tools.deb https://launchpad.net/~wireguard/+archive/ubuntu/wireguard/+build/19291633/+files/wireguard-tools_1.0.20200510-1~18.04_amd64.deb
             curl -L -o wireguard-dkms.deb https://launchpad.net/~wireguard/+archive/ubuntu/wireguard/+build/19258545/+files/wireguard-dkms_1.0.20200429-2~18.04_all.deb
+
+            file wireguard-tools.deb
+            file wireguard-dkms.deb
             
             sudo dpkg -i wireguard-tools.deb
             sudo dpkg -i wireguard-dkms.deb
